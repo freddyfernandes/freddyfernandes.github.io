@@ -3,8 +3,8 @@
 const config = {
   github: {
     username: 'freddyfernandes', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    sortBy: 'updated', // stars | updated
+    limit: 8, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -69,13 +69,13 @@ const config = {
   education: [
     {
       institution: 'University of Stuttgart',
-      degree: 'MSc. Computer Science (Autonomous Systems Spec.)',
+      degree: 'MSc. Computer Science (Spec. Autonomous Systems)',
       from: 'October 2022',
       to: 'Present',
     },
     {
       institution: 'St. Xaviers College, Mumbai',
-      degree: 'BSc. Information Technology (Hons.)',
+      degree: 'BSc. Information Technology (with Hons.)',
       from: 'July 2019',
       to: 'March 2022'
     },
@@ -113,7 +113,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'garden',
+    defaultTheme: 'halloween',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
