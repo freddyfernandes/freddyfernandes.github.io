@@ -21,9 +21,9 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://https://freddyfernandes.github.io/',
+    website: 'freddyfernandes.github.io/',
     phone: '',
-    email: 'freddyfernandesuni@gmail.com',
+    email: 'Freddyfernandesuni@gmail.com',
   },
   resume: {
     fileUrl:
@@ -124,14 +124,14 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: true,
+    hideAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
