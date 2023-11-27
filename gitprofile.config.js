@@ -58,14 +58,6 @@ const config = {
       companyLink: 'https://www.alpsalpine.com/eu/',
     },
   ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
     {
       institution: 'University of Stuttgart',
@@ -79,6 +71,21 @@ const config = {
       from: 'July 2019',
       to: 'March 2022'
     },
+  ],
+  certifications: [
+    {
+      name: 'Python for Data Science',
+      body: 'Issued by the Xavier Institute Of Engineering',
+      year: 'July 2020',
+      link: 'https://www.linkedin.com/in/freddyfernandes07/details/certifications/'
+    },
+    {
+      name: 'Data Science Math Skills',
+      body: 'Issued by Duke University in collaboration with Coursera ',
+      year: 'December 2020',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/MUDQ6CFUPSRX'
+    },
+    
   ],
 
   // To hide the `My Projects` section, keep it empty.
@@ -113,7 +120,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'halloween',
+    defaultTheme: 'lemonade',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -124,7 +131,7 @@ const config = {
     respectPrefersColorScheme: false,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: false,
+    hideAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
