@@ -42,7 +42,8 @@ const config = {
     'Docker',
     'MS Office',
   ],
-  experiences: [
+  
+  /*experiences: [
     {
       company: 'University of Stuttgart',
       position: 'Research Assistant, Institute of Railway and Transportation Engineering',
@@ -57,6 +58,7 @@ const config = {
       to: 'August 2023',
       companyLink: 'https://www.alpsalpine.com/eu/',
     },
+    */
   ],
   education: [
     {
